@@ -40,7 +40,7 @@ window.onload = function() {
   veces = parseInt(veces);
   console.log(frase.who);
   let fraseLista = "";
-  for (let i = 0; i <= veces; i++) {
+  for (let i = 0; i < veces; i++) {
     let who = aleatorio(frase.who);
     let action = aleatorio(frase.action);
     let what = aleatorio(frase.what);
